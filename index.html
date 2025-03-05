@@ -1,193 +1,177 @@
-<!DOCTYPE html>  
-<html lang="pt-BR">  
-<head>  
-    <meta charset="UTF-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>Guia do Espaço do Estudante</title>  
-    <link rel="stylesheet" href="style.css">  
-</head>  
-<body>  
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Guia do Espaço do Estudante</title>
+</head>
+<body>
+    <div class="overlay"></div> 
+    
+    
+    <header>
+        
+        <h1>Bem-vindo ao Guia do Espaço do Estudante!</h1>
+        <p>Um guia completo para você aproveitar ao máximo sua plataforma online de recursos acadêmicos.</p>
+        <div class="menu-container">
+            <button class="profile-button">Menu<span class="profile-icon"></span></button>
+            <div class="menu-dropdown">
+                <a href="#dados-pessoais">Dados Pessoais</a>
+                <a href="#desempenho">Desempenho</a>
+                <a href="#documentos">Documentos</a>
+                <a href="#financeiro">Financeiro</a>
+                <a href="#rematricula">Rematrícula</a>
+                <a href="#carteira-transporte">Carteira de Transporte</a>
+                <a href="#requerimentos">Requerimentos</a>
+                <a href="#assinatura-documentos">Assinatura de Documentos</a>
+                <a href="#certificados">Certificados</a>
+                <a href="#dicas">Dicas</a>
+            </div>
+        </div>
+    </header>
 
-    <header>  
-        <h1>Bem-vindo ao Guia do Espaço do Estudante!</h1>  
-        <p>Um guia completo para você aproveitar ao máximo sua plataforma online de recursos acadêmicos.</p>  
-    </header>  
-
-    <nav>  
-        <ul>  
-            <li><a href="#acesso">Acesso</a></li>  
-            <li><a href="#navegacao">Navegação</a></li>  
-            <li><a href="#dados-pessoais">Dados Pessoais</a></li>  
-            <li><a href="#desempenho">Desempenho</a></li>  
-            <li><a href="#documentos">Documentos</a></li>  
-            <li><a href="#financeiro">Financeiro</a></li>  
-            <li><a href="#fale-conosco">Fale Conosco</a></li>  
-            <li><a href="#rematricula">Rematrícula</a></li>  
-            <li><a href="#carteira-transporte">Carteira de Transporte</a></li>  
-            <li><a href="#requerimentos">Requerimentos</a></li>  
-            <li><a href="#assinatura-documentos">Assinatura de Documentos</a></li>  
-            <li><a href="#certificados">Certificados</a></li>  
-            <li><a href="#dicas">Dicas</a></li>  
-        </ul>  
-    </nav>  
-
-    <main>  
-
-        <section id="acesso">  
-            <h2>Acesso</h2>  
+    <main>
+        <section id="acesso">
+            <h2>Acesso</h2>
             <img src="./img/Captura de tela 2025-03-05 122935.png" alt="">
-            <p>Aqui você encontrará informações sobre como acessar o Espaço do Estudante, desde o link de acesso até a solução de problemas de login.</p>  
-        </section>  
+            <p>Aqui você encontrará informações sobre como acessar o Espaço do Estudante, desde o link de acesso até a solução de problemas de login.</p>
+        </section>
 
-        <section id="dados-pessoais">  
-            <h2>Dados Pessoais</h2>  
-            <p>Saiba como visualizar e atualizar suas informações de contato e dados cadastrais.</p>  
-            <button class="show-more" data-section="dados-pessoais">Mostrar Mais</button>  
-            <div class="hidden-content" id="dados-pessoais-content">  
-                <img src="./img/Captura de tela 2025-03-05 123141.png" alt="">
-                <p>Permite que você visualize e, em alguns casos, edite suas informações de contato (endereço, telefone, e-mail), dados cadastrais (nome completo, data de nascimento) e outras informações relevantes para a instituição. Aqui, você pode atualizar seus dados, garantindo que a instituição tenha informações corretas para comunicação.</p>  
-            </div>  
-        </section>  
+        <section id="dados-pessoais">
+            <h2>Dados Pessoais</h2>
+            <img src="./img/Captura de tela 2025-03-05 123141.png" alt="" >
 
-        <section id="desempenho">  
-            <h2>Desempenho</h2>  
-            <p>Aprenda a interpretar suas notas, histórico de frequência e CR para monitorar seu progresso acadêmico.</p>  
-            <button class="show-more" data-section="desempenho">Mostrar Mais</button>  
-            <div class="hidden-content" id="desempenho-content">  
-                <img src="" alt="">
-                <p>Apresenta um resumo do seu desempenho acadêmico, incluindo suas notas em cada disciplina, seu histórico de frequência, seu coeficiente de rendimento (CR) e outras métricas relevantes. Essa seção te ajuda a monitorar seu progresso e identificar áreas que precisam de mais atenção.</p>  
-                <h3>Boletim</h3>  
-                <p>Exibe um resumo do desempenho do aluno em cada disciplina, incluindo o "CF" (Conceito Final), a "Frequência" e a "Situação" (Aprovado ou Reprovado). No exemplo, vemos a disciplina "Mundo do Trabalho" com frequência de 77,50% e situação "Aprovado". Existe a opção de gerar o boletim em PDF.</p>  
-                <h3>Conceitos</h3>  
+            <p>Saiba como visualizar e atualizar suas informações de contato e dados cadastrais.</p>
+            <button class="show-more" data-section="dados-pessoais">Mostrar Mais</button>
+            <div class="hidden-content" id="dados-pessoais-content">
+                <p>Permite que você visualize e, em alguns casos, edite suas informações de contato (endereço, telefone, e-mail), dados cadastrais (nome completo, data de nascimento) e outras informações relevantes para a instituição. Aqui, você pode atualizar seus dados, garantindo que a instituição tenha informações corretas para comunicação.</p>
+            </div>
+        </section>
+
+        <section id="desempenho">
+            <h2>Desempenho</h2>
+            <img src="./img/Captura de tela 2025-03-05 114630.png" alt="" width="670" height="440">            <p>Aprenda a interpretar suas notas, histórico de frequência e CR para monitorar seu progresso acadêmico.</p>
+            <button class="show-more" data-section="desempenho">Mostrar Mais</button>
+            <div class="hidden-content" id="desempenho-content">
+                <h2>Desempenho</h2>
+                <p>Apresenta um resumo do seu desempenho acadêmico, incluindo suas notas em cada disciplina, seu histórico de frequência, seu coeficiente de rendimento (CR) e outras métricas relevantes. Essa seção te ajuda a monitorar seu progresso e identificar áreas que precisam de mais atenção.</p>
+                <h3>Boletim</h3>
+                <p>Exibe um resumo do desempenho do aluno em cada disciplina, incluindo o "CF" (Conceito Final), a "Frequência" e a "Situação" (Aprovado ou Reprovado). No exemplo, vemos a disciplina "Mundo do Trabalho" com frequência de 77,50% e situação "Aprovado". Existe a opção de gerar o boletim em PDF.</p>
+                <h3>Conceitos</h3>
                 <p>Mostra os conceitos obtidos pelo aluno em cada avaliação (provas, trabalhos, etc.). Os conceitos podem ser notas numéricas ou letras (A, B, C, etc.), dependendo do sistema de avaliação da instituição.</p>
                 <h3>Frequência</h3>
                 <p>Detalha a frequência do aluno em cada aula, mostrando o número de presenças e faltas, e o percentual de frequência total.</p>
                 <h3>Plano de Ensino</h3>
                 <p>Apresenta o plano de ensino de cada disciplina, incluindo os objetivos, o conteúdo programático, a metodologia e os critérios de avaliação.</p>
-                </div>
-                </section>
-                <section id="documentos">  
-                    <h2>Documentos</h2>  
-                    <p>Descubra como acessar e baixar documentos importantes relacionados à sua vida acadêmica.</p>  
-                    <button class="show-more" data-section="documentos">Mostrar Mais</button>  
-                    <div class="hidden-content" id="documentos-content">  
-                        <!-- Conteúdo detalhado sobre documentos -->  
-                        <p>Oferece acesso a documentos importantes relacionados à sua vida acadêmica, como histórico escolar, comprovante de matrícula, declarações e outros documentos que podem ser necessários para comprovar sua situação como estudante. Você pode fazer download desses documentos para utilizá-los quando precisar.</p>  
-                        <h3>Estágio</h3>  
-                        <p>Contém o "Guia do Estagiário SENAI". Este guia provavelmente oferece informações e orientações sobre como realizar um estágio no SENAI, incluindo os requisitos, os procedimentos e as responsabilidades do estagiário.</p>  
-                        <h3>Manual do Estudante</h3>  
-                        <p>Contém o "Guia do Estudante 2024 - Cursos Profissionais", publicado em 13/05/2024. Este manual provavelmente oferece informações gerais sobre a instituição, os cursos oferecidos, os direitos e deveres dos alunos, os serviços disponíveis e outras informações úteis para a vida acadêmica.</p>  
-                        <h3>Política de Segurança da Informação</h3>  
-                        <p>Contém o documento "Política de Segurança da Informação para Estudantes", publicado em 14/11/2024. Este documento estabelece as diretrizes e os procedimentos que os alunos devem seguir para proteger as informações da instituição e garantir a segurança dos sistemas e dados.</p>  
-                        <h3>Regimento</h3>  
-                        <p>Contém o "Regimento Escolar Acadêmico 2024", publicado em 13/05/2024. Este documento estabelece as normas e os regulamentos que regem a vida acadêmica na instituição, incluindo as regras sobre matrícula, frequência, avaliação, aprovação, reprovação, transferência e outros assuntos relacionados.</p>  
-                        <h3>Funcionalidades e Ações</h3>  
-                        <ul>  
-                            <li><strong>Download:</strong> Ao clicar no ícone de download ao lado de cada arquivo, o estudante pode baixar o documento para o seu computador ou dispositivo móvel.</li>  
-                            <li><strong>Visualização:</strong> Dependendo da configuração do sistema, pode ser possível visualizar o documento online antes de fazer o download.</li>  
-                            <li><strong>Organização:</strong> A organização em pastas facilita a localização dos documentos desejados.</li>  
-                        </ul>  
-                    </div>  
-                </section>  
-            
-                <section id="financeiro">  
-                    <h2>Financeiro</h2>  
-                    <p>Acesse informações sobre seus boletos, extrato de pagamentos e benefícios financeiros.</p>  
-                    <button class="show-more" data-section="financeiro">Mostrar Mais</button>  
-                    <div class="hidden-content" id="financeiro-content">  
-                        <!-- Conteúdo detalhado sobre financeiro -->  
-                        <p>Permite que você consulte informações financeiras relacionadas à sua matrícula, como boletos de mensalidade, extrato de pagamentos, informações sobre bolsas de estudo, financiamentos e outros benefícios financeiros que você possa ter. Essa seção te ajuda a controlar seus gastos com a faculdade.</p>  
-                    </div>  
-                </section>  
-            
-                <section id="fale-conosco">  
-                    <h2>Fale Conosco</h2>  
-                    <p>Saiba como entrar em contato com a instituição para tirar dúvidas, enviar sugestões ou solicitar suporte.</p>  
-                    <button class="show-more" data-section="fale-conosco">Mostrar Mais</button>  
-                    <div class="hidden-content" id="fale-conosco-content">  
-                        <!-- Conteúdo detalhado sobre fale conosco -->  
-                        <p>Oferece um canal de comunicação direto com a instituição, permitindo que você envie dúvidas, sugestões, reclamações e solicite suporte técnico. Essa ferramenta te ajuda a resolver problemas e obter informações adicionais sobre os serviços da instituição.</p>  
-                    </div>  
-                </section>  
-            
-                <section id="rematricula">  
-                    <h2>Rematrícula</h2>  
-                    <p>Realize sua rematrícula online para o próximo semestre/ano letivo.</p>  
-                    <button class="show-more" data-section="rematricula">Mostrar Mais</button>  
-                    <div class="hidden-content" id="rematricula-content">  
-                        <!-- Conteúdo detalhado sobre rematrícula -->  
-                        <p><strong>Função:</strong> Permite que o aluno realize o processo de rematrícula para o próximo semestre/ano letivo de forma online.</p>  
-                        <p><strong>Ações:</strong> Provavelmente envolve a confirmação de dados, escolha de disciplinas (se aplicável), aceitação de termos e condições, e geração de boleto para pagamento da taxa de Rematrícula (se houver).</p>  
-                    </div>  
-                </section>  
-            
-                <section id="carteira-transporte">  
-                    <h2>Carteira de Transporte Público</h2>  
-                    <p>Informações sobre como solicitar ou renovar sua carteira de transporte estudantil.</p>  
-                    <button class="show-more" data-section="carteira-transporte">Mostrar Mais</button>  
-                    <div class="hidden-content" id="carteira-transporte-content">  
-                        <!-- Conteúdo detalhado sobre carteira de transporte -->  
-                        <p><strong>Função:</strong> Oferece informações e recursos para que o aluno possa solicitar ou renovar sua carteira de transporte público estudantil.</p>  
-                        <p><strong>Ações:</strong> Pode incluir o preenchimento de formulários online, o envio de documentos digitalizados, a consulta do status da solicitação e o agendamento para retirada da carteira.</p>  
-                    </div>  
-                </section>  
-            
-                <section id="requerimentos">  
-                    <h2>Requerimentos</h2>  
-                    <p>Faça solicitações diversas à instituição, como declarações, históricos escolares, revisão de provas, etc.</p>  
-                    <button class="show-more" data-section="requerimentos">Mostrar Mais</button>  
-                    <div class="hidden-content" id="requerimentos-content">  
-                        <!-- Conteúdo detalhado sobre requerimentos -->  
-                        <p><strong>Função:</strong> Permite que o aluno faça solicitações diversas à instituição, como declarações, históricos escolares, revisão de provas, etc.</p>  
-                        <p><strong>Ações:</strong> Provavelmente envolve a escolha do tipo de requerimento, o preenchimento de um formulário com os dados necessários e o envio da solicitação. O aluno pode acompanhar o status do requerimento online.</p>  
-                    </div>  
-                </section>  
-            
-                <section id="assinatura-documentos">  
-                    <h2>Assinatura de Documentos</h2>  
-                    <p>Assine documentos eletronicamente, como contratos, termos de compromisso, etc.</p>  
-                    <button class="show-more" data-section="assinatura-documentos">Mostrar Mais</button>  
-                    <div class="hidden-content" id="assinatura-documentos-content">  
-                        <!-- Conteúdo detalhado sobre assinatura de documentos -->  
-                        <p><strong>Função:</strong> Permite que o aluno assine documentos eletronicamente, como contratos, termos de compromisso, etc.</p>  
-                        <p><strong>Ações:</strong> Provavelmente envolve o uso de um certificado digital ou outra forma de autenticação para garantir a validade da assinatura.</p>  
-                    </div>  
-                </section>  
-            
-                <section id="certificados">  
-                    <h2>Certificados</h2>  
-                    <p>Visualize e faça o download de certificados de conclusão de cursos, participação em eventos, etc.</p>  
-                    <button class="show-more" data-section="certificados">Mostrar Mais</button>  
-                    <div class="hidden-content" id="certificados-content">  
-                        <!-- Conteúdo detalhado sobre certificados -->  
-                        <p><strong>Função:</strong> Permite que o aluno visualize e faça o download de certificados de conclusão de cursos, participação em eventos, etc.</p>  
-                        <p><strong>Ações:</strong> O aluno pode selecionar o certificado desejado e fazer o download em formato PDF ou outro formato disponível.</p>  
-                    </div>  
-                </section>  
-            
-                <section id="dicas">  
-                    <h2>Dicas</h2>  
-                    <p>Aproveite ao máximo o Espaço do Estudante com estas dicas úteis.</p>  
-                    <button class="show-more" data-section="dicas">Mostrar Mais</button>  
-                    <div class="hidden-content" id="dicas-content">  
-                        <!-- Conteúdo detalhado sobre dicas -->  
-                        <ul>  
-                            <li>Explore a plataforma: Dedique um tempo para explorar todas as funcionalidades e recursos do Espaço do Estudante.</li>  
-                            <li>Mantenha-se atualizado: Verifique regularmente os avisos e mensagens para não perder informações importantes.</li>  
-                            <li>Participe dos fóruns: Utilize os fóruns para tirar dúvidas, trocar ideias e colaborar com seus colegas.</li>  
-                            <li>Organize seu tempo: Utilize o calendário para agendar seus compromissos e prazos de entrega.</li>  
-                            <li>Utilize os materiais de estudo: Aproveite os materiais disponibilizados pelos professores para complementar seus estudos.</li>  
-                            <li>Não hesite em pedir ajuda: Se tiver dúvidas ou problemas, entre em contato com o suporte técnico ou com seus professores.</li>  
-                        </ul>  
-                    </div>  
-                </section>  
-            
-            </main>  
-            
-            <footer>  
-                <p>&copy; 2025 Guia do Espaço do Estudante</p>  
-            </footer>  
-            
-            <script src="script.js"></script>  
-        </body>
-        </html>
+            </div>
+        </section>
+
+        <section id="documentos">
+            <h2>Documentos</h2>
+            <img src="img\Captura de tela 2025-03-05 115004.png" alt="" width="670" height="350">
+            <p>Descubra como acessar e baixar documentos importantes relacionados à sua vida acadêmica.</p>
+            <button class="show-more" data-section="documentos">Mostrar Mais</button>
+            <div class="hidden-content" id="documentos-content">
+                <h2>Documentos</h2>
+                <p>Oferece acesso a documentos importantes relacionados à sua vida acadêmica, como histórico escolar, comprovante de matrícula, declarações e outros documentos que podem ser necessários para comprovar sua situação como estudante. Você pode fazer download desses documentos para utilizá-los quando precisar.</p>
+                <h3>Estágio</h3>
+                <p>Contém o "Guia do Estagiário SENAI". Este guia provavelmente oferece informações e orientações sobre como realizar um estágio no SENAI, incluindo os requisitos, os procedimentos e as responsabilidades do estagiário.</p>
+                <h3>Manual do Estudante</h3>
+                <p>Contém o "Guia do Estudante 2024 - Cursos Profissionais", publicado em 13/05/2024. Este manual provavelmente oferece informações gerais sobre a instituição, os cursos oferecidos, os direitos e deveres dos alunos, os serviços disponíveis e outras informações úteis para a vida acadêmica.</p>
+                <h3>Política de Segurança da Informação</h3>
+                <p>Contém o documento "Política de Segurança da Informação para Estudantes", publicado em 14/11/2024. Este documento estabelece as diretrizes e os procedimentos que os alunos devem seguir para proteger as informações da instituição e garantir a segurança dos sistemas e dados.</p>
+                <h3>Regimento</h3>
+                <p>Contém o "Regimento Escolar Acadêmico 2024", publicado em 13/05/2024. Este documento estabelece as normas e os regulamentos que regem a vida acadêmica na instituição, incluindo as regras sobre matrícula, frequência, avaliação, aprovação, reprovação, transferência e outros assuntos relacionados.</p>
+                <h3>Funcionalidades e Ações</h3>
+                <ul>
+                    <li><strong>Download:</strong> Ao clicar no ícone de download ao lado de cada arquivo, o estudante pode baixar o documento para o seu computador ou dispositivo móvel.</li>
+                    <li><strong>Visualização:</strong> Dependendo da configuração do sistema, pode ser possível visualizar o documento online antes de fazer o download.</li>
+                    <li><strong>Organização:</strong> A organização em pastas facilita a localização dos documentos desejados.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="financeiro">
+            <h2>Financeiro</h2>
+            <img src="./img/Captura de tela 2025-03-05 120316.png" alt="" width="600" height="300">
+            <p>Acesse informações sobre seus boletos, extrato de pagamentos e benefícios financeiros.</p>
+            <button class="show-more" data-section="financeiro">Mostrar Mais</button>
+            <div class="hidden-content" id="financeiro-content">
+                <h2>Financeiro</h2>
+                <p>Permite que você consulte informações financeiras relacionadas à sua matrícula, como boletos de mensalidade, extrato de pagamentos, informações sobre bolsas de estudo, financiamentos e outros benefícios financeiros que você possa ter. Essa seção te ajuda a controlar seus gastos com a faculdade.</p>
+                <p><strong>Acesse seus boletos em:</strong></p> <a href= "https://estudante.sesisenai.org.br/financeiro" target="_blank">https://estudante.sesisenai.org.br/financeiro</a>
+            </div>
+        </section>
+        
+        <section id="rematricula">
+            <h2>Rematrícula</h2>
+            <img src="" alt="">
+            <p>Realize sua rematrícula online para o próximo semestre/ano letivo.</p>
+            <button class="show-more" data-section="rematricula">Mostrar Mais</button>
+            <div class="hidden-content" id="rematricula-content">
+                <h2>Rematrícula</h2>
+                <p><strong>Função:</strong> Permite que o aluno realize o processo de rematrícula para o próximo semestre/ano letivo de forma online.</p>
+                <p><strong>Ações:</strong> Provavelmente envolve a confirmação de dados, escolha de disciplinas (se aplicável), aceitação de termos e condições, e geração de boleto para pagamento da taxa de Rematrícula (se houver).</p>
+            </div>
+        </section>
+        
+        <section id="carteira-transporte">
+            <h2>Carteira de Transporte Público</h2>
+            <p>Informações sobre como solicitar ou renovar sua carteira de transporte estudantil.</p>
+            <button class="show-more" data-section="carteira-transporte">Mostrar Mais</button>
+            <div class="hidden-content" id="carteira-transporte-content">
+                <h2>Carteira de Transporte Público</h2>
+                <p><strong>Função:</strong> Oferece informações e recursos para que o aluno possa solicitar ou renovar sua carteira de transporte público estudantil.</p>
+                <p><strong>Ações:</strong> Pode incluir o preenchimento de formulários online, o envio de documentos digitalizados, a consulta do status da solicitação e o agendamento para retirada da carteira.</p>
+            </div>
+        </section>
+        
+        <section id="requerimentos">
+            <h2>Requerimentos</h2>
+            <p>Faça solicitações diversas à instituição, como declarações, históricos escolares, revisão de provas, etc.</p>
+            <button class="show-more" data-section="requerimentos">Mostrar Mais</button>
+            <div class="hidden-content" id="requerimentos-content">            
+                <h2>Requerimentos</h2>
+                <p><strong>Função:</strong> Permite que o aluno faça solicitações diversas à instituição, como declarações, históricos escolares, revisão de provas, etc.</p>
+                <p><strong>Ações:</strong> Provavelmente envolve a escolha do tipo de requerimento, o preenchimento de um formulário com os dados necessários e o envio da solicitação. O aluno pode acompanhar o status do requerimento online.</p>
+            </div>
+        </section>
+        
+        <section id="assinatura-documentos">
+            <h2>Assinatura de Documentos</h2>
+            <p>Assine documentos eletronicamente, como contratos, termos de compromisso, etc.</p>
+            <button class="show-more" data-section="assinatura-documentos">Mostrar Mais</button>
+            <div class="hidden-content" id="assinatura-documentos-content">
+                <h2>Assinatura de Documentos</h2>
+                <p><strong>Função:</strong> Permite que o aluno assine documentos eletronicamente, como contratos, termos de compromisso, etc.</p>
+                <p><strong>Ações:</strong> Provavelmente envolve o uso de um certificado digital ou outra forma de autenticação para garantir a validade da assinatura.</p>
+            </div>
+        </section>
+        
+        <section id="certificados">
+            <h2>Certificados</h2>
+            <p>Visualize e faça o download de certificados de conclusão de cursos, participação em eventos, etc.</p>
+            <button class="show-more" data-section="certificados">Mostrar Mais</button>
+            <div class="hidden-content" id="certificados-content">
+                <h2>Certificados</h2>
+                <p><strong>Função:</strong> Permite que o aluno visualize e faça o download de certificados de conclusão de cursos, participação em eventos, etc.</p>
+                <p><strong>Ações:</strong> O aluno pode selecionar o certificado desejado e fazer o download em formato PDF ou outro formato disponível.</p>
+            </div>
+        </section>
+        
+        <section id="dicas">
+            <h2>Dicas</h2>
+            <li>Explore a plataforma: Dedique um tempo para explorar todas as funcionalidades e recursos do Espaço do Estudante.</li><br>
+                    <li>Mantenha-se atualizado: Verifique regularmente os avisos e mensagens para não perder informações importantes.</li><br>
+                    <li>Organize seu tempo: Utilize o calendário para agendar seus compromissos e prazos de entrega.</li><br>
+                    <li>Utilize os materiais de estudo: Aproveite os materiais disponibilizados pelos professores para complementar seus estudos, como por exemplo a Plural e a Geekie One</li><br>
+                    <li>Não hesite em pedir ajuda, Se tiver dúvidas ou problemas, entre em contato com o suporte técnico, com seus professores ou mesmo com seus colegas</li><br>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Guia do Espaço do Estudante</p>
+    </footer>
+    </body>
+</html>
