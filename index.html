@@ -1,38 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Guia completo para aproveitar ao máximo a plataforma online de recursos acadêmicos do Espaço do Estudante.">
-    <link rel="shortcut icon" href="img/icon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <title>Guia do Espaço do Estudante</title>
 </head>
 <body>
     <div class="overlay"></div> 
-    
+
+    <aside id="sidebar">
+        <nav id="menu-lateral" aria-label="Menu principal">
+            <a href="#acesso">Acesso</a>
+            <a href="#dados-pessoais">Dados Pessoais</a>
+            <a href="#desempenho">Desempenho</a>
+            <a href="#documentos">Documentos</a>
+            <a href="#financeiro">Financeiro</a>
+            <a href="#rematricula">Rematrícula</a>
+            <a href="#carteira-transporte">Carteira de Transporte</a>
+            <a href="#requerimentos">Requerimentos</a>
+            <a href="#assinatura-documentos">Assinatura de Documentos</a>
+            <a href="#certificados">Certificados</a>
+            <a href="#dicas">Dicas</a>
+        </nav>
+    </aside>
+
     <header>
         <h1>Bem-vindo ao Guia do Espaço do Estudante!</h1>
         <p>Um guia completo para você aproveitar ao máximo sua plataforma online de recursos acadêmicos.</p>
-        <div class="menu-container">
-            <button class="profile-button" aria-expanded="false" aria-controls="menu-dropdown">
-                Menu<span class="profile-icon"></span>
-            </button>
-            <nav id="menu-dropdown" class="menu-dropdown" aria-label="Menu principal">
-                <a href="#acesso">Acesso</a>
-                <a href="#dados-pessoais">Dados Pessoais</a>
-                <a href="#desempenho">Desempenho</a>
-                <a href="#documentos">Documentos</a>
-                <a href="#financeiro">Financeiro</a>
-                <a href="#rematricula">Rematrícula</a>
-                <a href="#carteira-transporte">Carteira de Transporte</a>
-                <a href="#requerimentos">Requerimentos</a>
-                <a href="#assinatura-documentos">Assinatura de Documentos</a>
-                <a href="#certificados">Certificados</a>
-                <a href="#dicas">Dicas</a>
-            </nav>
-        </div>
     </header>
 
     <main>
@@ -133,7 +127,7 @@
             <img src="./img/image2.png" alt="Captura de tela da seção de Requerimentos" width="600" height="100">
             <p>Faça solicitações diversas à instituição, como declarações, históricos escolares, revisão de provas, etc.</p>
             <button class="show-more" data-section="requerimentos" aria-expanded="false">Mostrar Mais</button>
-            <div class="hidden-content" id="requerimentos-content">            
+            <div class="hidden-content" id="requerimentos-content"> 
                 <p><strong>Função:</strong> Permite que o aluno faça solicitações diversas à instituição, como declarações, históricos escolares, revisão de provas, etc.</p>
                 <p><strong>Ações:</strong> Provavelmente envolve a escolha do tipo de requerimento, o preenchimento de um formulário com os dados necessários e o envio da solicitação. O aluno pode acompanhar o status do requerimento online.</p>
             </div>
@@ -173,5 +167,7 @@
             <p>&copy; 2025 Guia do Espaço do Estudante</p>
         </footer>
     </main>
+
+
 </body>
 </html>
